@@ -1,3 +1,6 @@
+git clone
+	cloner un depot distant existant
+
 git init
 	initialiser un projet git (créer un dépôt local)
 git status
@@ -30,10 +33,9 @@ git remote add origin <address>
 	ajouter un dépôt distant à notre projet (vers GitHub par exemple)
 git push
 	pousser des modifications vers le dépôt distant
+git pull
+	récupérer les modifications d'un dépôt distant
 
 
 Trame pour un push:
 créer/modifier un fichier > ajouter la modification dans l'index (git add) > intégrer les modifications dans l'historique (dépôt local) (git commit) > publier sur le dépôt distant (git push)
-
-
-
