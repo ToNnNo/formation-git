@@ -1,0 +1,22 @@
+git init
+	initialiser un projet git (créer un dépôt local)
+git status
+	afficher l'état du projet (voir les fichiers ajouté, modifié, supprimé, indexé, etc)
+git log
+	affiche l'historique du dépôt avec le nom l'utilisateur et date à auquel un commit a été fait
+git add <nomdufichier>
+	ex: git add exemple.txt
+	ajoute le ou les fichiers à la zone d'attente (indexation)
+git commit -m "<message>"
+	ex: git commit -m "création du fichier exemple.txt"
+	ajoute le ou les fichiers de la zone d'attente dans le dépôt local
+git commit --amend -m "<message>"
+	modifie le message du dernier commit
+git branch ou git branch --list
+	lister les branches d'un projet
+git branch <nom>
+	ex: git branch test
+	crée une nouvelle branche
+git switch <nom> ou git checkout <nom>
+	ex: git checkout test
+	change de branche
