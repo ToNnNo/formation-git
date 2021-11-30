@@ -1,0 +1,11 @@
+../ => répertoire parent
+
+cd <path>
+	ex : cd Desktop/
+	naviguer dans les répertoires
+ls 
+	lister le contenu d'un répertoire
+touch <nom>
+	créer un fichier
+mkdir <nom> 
+	créer un répertoire
