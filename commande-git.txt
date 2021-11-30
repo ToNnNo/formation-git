@@ -20,3 +20,8 @@ git branch <nom>
 git switch <nom> ou git checkout <nom>
 	ex: git checkout test
 	change de branche
+git merge <branch>
+	fusionner 1 ou +ieurs branches 
+	(attention: bien se positionner sur la branche qui va recevoir la fusion)
+git branch -d <branch>
+	supprimer une branche
